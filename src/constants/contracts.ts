@@ -11,8 +11,8 @@ import { AbiItem } from "web3-utils";
 //PROD
 export const presaleContractAddress = "0x3511d99b34d07a0ee5ebd8ccca32e7a92423df03";
 export const tetherContractAddress = "0xdAC17F958D2ee523a2206206994597C13D831ec7";
-export const catsContractAddress = "0x236f7964654ef4936972f245a10ee18fec9db919";
-export const walletAddressAdmin = "0x99BDDFc00d4e75fed03731fB4474EEbE977b0422";
+export const catsContractAddress = "0xaa6d4a35b7cde0c21098396146abe403cdf2d0ca";
+export const walletAddressAdmin = "0x3511D99B34d07A0Ee5eBD8ccCA32E7a92423Df03";
 
 //Prod
  const presale = [
@@ -2927,6 +2927,13 @@ const cats = [
       }
     ],
     "name": "burn",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "disableTrading",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
